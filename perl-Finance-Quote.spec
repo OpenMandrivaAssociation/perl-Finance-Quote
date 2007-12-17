@@ -15,7 +15,6 @@ Source:         http://www.cpan.org/modules/by-module/Finance/%{module}-%{versio
 Buildrequires:	perl-devel
 %endif
 Buildarch:	noarch
-BuildRoot:	%{_tmppath}/%{name}-%{version}
 
 %description
 Finance::Quote provides access to time-delayed stockquotes from a
