@@ -1,7 +1,7 @@
 %define module	Finance-Quote
 %define name	perl-%{module}
-%define version 1.13
-%define release %mkrel 3
+%define version 1.16
+%define release %mkrel 1
 
 Name:		%{name}
 Version:	%{version}
