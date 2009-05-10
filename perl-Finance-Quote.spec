@@ -18,6 +18,10 @@ Requires:	perl-libwww-perl
 Requires:	perl-HTML-TableExtract
 Requires:	perl-CGI
 Requires:	perl-HTML-Tree
+BuildRequires:       perl-libwww-perl
+BuildRequires:       perl-HTML-TableExtract
+BuildRequires:       perl-CGI
+BuildRequires:       perl-HTML-Tree
 Buildarch:	noarch
 BuildRoot:	%{_tmppath}/%{name}-%{version}
 
