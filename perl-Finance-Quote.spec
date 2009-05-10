@@ -14,8 +14,10 @@ Source:         http://www.cpan.org/modules/by-module/Finance/%{module}-%{versio
 %if %{mdkversion} < 1010
 Buildrequires:	perl-devel
 %endif
-BuildRequires:	perl-libwww-perl
-BuildRequires:	perl-HTML-TableExtract
+Requires:	perl-libwww-perl
+Requires:	perl-HTML-TableExtract
+Requires:	perl-CGI
+Requires:	perl-HTML-Tree
 Buildarch:	noarch
 BuildRoot:	%{_tmppath}/%{name}-%{version}
 
