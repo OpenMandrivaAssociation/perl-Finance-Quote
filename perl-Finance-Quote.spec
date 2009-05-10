@@ -15,6 +15,7 @@ Source:         http://www.cpan.org/modules/by-module/Finance/%{module}-%{versio
 Buildrequires:	perl-devel
 %endif
 BuildRequires:	perl-libwww-perl
+BuildRequires:	perl-HTML-TableExtract
 Buildarch:	noarch
 BuildRoot:	%{_tmppath}/%{name}-%{version}
 
