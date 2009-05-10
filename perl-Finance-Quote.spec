@@ -14,6 +14,7 @@ Source:         http://www.cpan.org/modules/by-module/Finance/%{module}-%{versio
 %if %{mdkversion} < 1010
 Buildrequires:	perl-devel
 %endif
+BuildRequires:	perl-libwww-perl
 Buildarch:	noarch
 BuildRoot:	%{_tmppath}/%{name}-%{version}
 
