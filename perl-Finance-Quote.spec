@@ -1,5 +1,5 @@
 %define upstream_name	 Finance-Quote
-%define upstream_version 1.16
+%define upstream_version 1.17
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
@@ -9,21 +9,13 @@ Summary:	Get stock and mutual fund quotes from various exchanges
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:        http://search.cpan.org/dist/%{upstream_name}
-Source0:    http://www.cpan.org/modules/by-module/Finance/%{upstream_name}-%{upstream_version}.tar.bz2
-
-%if %{mdkversion} < 1010
-Buildrequires:	perl-devel
-%endif
-BuildRequires:       perl-libwww-perl
-BuildRequires:       perl-HTML-TableExtract
-BuildRequires:       perl-CGI
-BuildRequires:       perl-HTML-Tree
+Source0:    http://www.cpan.org/modules/by-module/Finance/%{upstream_name}-%{upstream_version}.tar.gz
+BuildRequires:       perl(LWP::UserAgent)
+BuildRequires:       perl(HTML::TableExtract)
+BuildRequires:       perl(CGI)
+BuildRequires:       perl(HTML::Tree)
 Buildarch:	noarch
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}
-Requires:	perl-libwww-perl
-Requires:	perl-HTML-TableExtract
-Requires:	perl-CGI
-Requires:	perl-HTML-Tree
 
 %description
 Finance::Quote provides access to time-delayed stockquotes from a
