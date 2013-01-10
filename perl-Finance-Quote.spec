@@ -1,9 +1,9 @@
 %define upstream_name	 Finance-Quote
-%define upstream_version 1.17
+%define upstream_version 1.18
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	2
+Release:	1
 
 Summary:	Get stock and mutual fund quotes from various exchanges 
 License:	GPL+ or Artistic
