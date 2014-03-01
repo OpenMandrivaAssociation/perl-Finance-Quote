@@ -10,6 +10,7 @@ Url:		http://search.cpan.org/dist/%{modname}
 Source0:	http://www.cpan.org/modules/by-module/Finance/%{modname}-%{modver}.tar.gz
 BuildArch:	noarch
 BuildRequires:	perl-devel
+BuildRequires: perl(JSON)
 BuildRequires: perl(Date::Calc)
 BuildRequires: perl(Crypt::SSLeay)
 BuildRequires:	perl(LWP::UserAgent)
