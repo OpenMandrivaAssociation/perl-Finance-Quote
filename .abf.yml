@@ -1,2 +1,4 @@
-sources:
+removed_sources:
   Finance-Quote-1.18.tar.gz: d23c2e2ab6e7b90a652cc759c1f3a2fbab1f619d
+sources:
+  Finance-Quote-1.20.tar.gz: 75aac8d629c065d53591928eda0b38347710ae19

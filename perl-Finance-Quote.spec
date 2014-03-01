@@ -1,10 +1,9 @@
-%define modname	Finance-Quote
-%define modver	1.18
+%define modname	Finance-Quote%define modver 1.20
 
 Summary:	Get stock and mutual fund quotes from various exchanges 
 Name:		perl-%{modname}
 Version:	%perl_convert_version %{modver}
-Release:	6
+Release:	1
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{modname}
@@ -39,4 +38,5 @@ make test
 %doc INSTALL ChangeLog Documentation/*
 %{perl_vendorlib}/Finance
 %{_mandir}/man3/*
+
 
