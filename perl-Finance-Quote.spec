@@ -42,7 +42,7 @@ make test
 %makeinstall_std
 
 %files 
-%doc INSTALL ChangeLog Documentation/*
+%doc   Documentation/*
 %{perl_vendorlib}/Finance
 %{_mandir}/man3/*
 
