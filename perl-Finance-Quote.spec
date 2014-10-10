@@ -1,5 +1,5 @@
 %define modname	Finance-Quote
-%define modver 1.28
+%define modver 1.35
 
 Summary:	Get stock and mutual fund quotes from various exchanges 
 
