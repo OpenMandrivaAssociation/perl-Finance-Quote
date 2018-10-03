@@ -22,9 +22,6 @@ BuildRequires:	perl(CGI)
 BuildRequires:	perl(HTML::Tree)
 BuildRequires:	perl(LWP::Protocol::https)
 BuildRequires:	perl(Test::More)
-BuildRequires:	perl(Package::Stash)
-BuildRequires:	perl(IO::Socket::SSL)
-BuildRequires:	perl(Net::SSL)
 
 %description
 Finance::Quote provides access to time-delayed stockquotes from a
