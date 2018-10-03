@@ -15,12 +15,14 @@ BuildRequires:	perl-devel
 BuildRequires: perl(Time::Piece)
 BuildRequires: perl(Mozilla::CA)
 BuildRequires: perl(JSON)
-BuildRequires: perl(Date::Calc)
+BuildRequires: perl(DateTime)
 BuildRequires:	perl(LWP::UserAgent)
 BuildRequires:	perl(HTML::TableExtract)
 BuildRequires:	perl(CGI)
 BuildRequires:	perl(HTML::Tree)
 BuildRequires:	perl(LWP::Protocol::https)
+BuildRequires:	perl(Test::More)
+
 %description
 Finance::Quote provides access to time-delayed stockquotes from a
 number of sources.  After you've installed the pacakage, try
