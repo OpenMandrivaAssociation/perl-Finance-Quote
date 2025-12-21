@@ -11,6 +11,7 @@ Group:		Development/Perl
 Url:		https://metacpan.org/pod/Finance::Quote
 Source0:	http://www.cpan.org/modules/by-module/Finance/%{modname}-%{modver}.tar.gz
 BuildArch:	noarch
+BuildRequires:	make
 BuildRequires:	perl-devel
 BuildRequires: perl(Time::Piece)
 BuildRequires: perl(Mozilla::CA)
