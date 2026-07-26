@@ -1,15 +1,13 @@
 %define modname	Finance-Quote
-%define modver 1.47
-
 Summary:	Get stock and mutual fund quotes from various exchanges 
 
 Name:		perl-%{modname}
-Version:	%perl_convert_version %{modver}
-Release:	5
+Version:	1.47
+Release:	6
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
 Url:		https://metacpan.org/pod/Finance::Quote
-Source0:	http://www.cpan.org/modules/by-module/Finance/%{modname}-%{modver}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Finance/%{modname}-%{version}.tar.gz
 BuildArch:	noarch
 BuildRequires:	make
 BuildRequires:	perl-devel
@@ -31,7 +29,7 @@ number of sources.  After you've installed the pacakage, try
 you can 'perldoc lib/Finance/Quote.pm' before the install.
 
 %prep
-%setup -qn %{modname}-%{modver}
+%setup -qn %{modname}-%{version}
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
