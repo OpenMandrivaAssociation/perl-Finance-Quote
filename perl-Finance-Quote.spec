@@ -2,8 +2,8 @@
 Summary:	Get stock and mutual fund quotes from various exchanges 
 
 Name:		perl-%{modname}
-Version:	1.47
-Release:	6
+Version:	1.70
+Release:	1
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
 Url:		https://metacpan.org/pod/Finance::Quote
@@ -29,7 +29,7 @@ number of sources.  After you've installed the pacakage, try
 you can 'perldoc lib/Finance/Quote.pm' before the install.
 
 %prep
-%setup -qn %{modname}-%{version}
+%setup -qn %{modname}-%{version} -n Finance-Quote-1.70
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
