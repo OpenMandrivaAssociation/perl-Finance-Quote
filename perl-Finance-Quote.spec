@@ -2,7 +2,7 @@
 Summary:	Get stock and mutual fund quotes from various exchanges 
 
 Name:		perl-%{modname}
-Version:	1.70
+Version:	1.71
 Release:	1
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
