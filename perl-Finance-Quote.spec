@@ -29,7 +29,7 @@ number of sources.  After you've installed the pacakage, try
 you can 'perldoc lib/Finance/Quote.pm' before the install.
 
 %prep
-%setup -qn %{modname}-%{version} -n Finance-Quote-1.70
+%setup -qn %{modname}-%{version}
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
